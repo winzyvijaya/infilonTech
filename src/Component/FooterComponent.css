@@ -1,0 +1,218 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #003366;
+    color: #f7f7ee;
+    padding: 20px;
+    width: 205.25px;
+}
+
+.logo-image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 49px; 
+}
+
+.logo-image img {
+    width: 37px;
+    height: 29px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    line-height: 33.89px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+.description-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.resources-section {
+  background-color: #003366;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.resources-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: -0.36px;
+}
+
+.resources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resources-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  color: white;
+  text-decoration: none;
+}
+
+.resources-link:hover {
+  text-decoration: underline;
+}
+
+.company-section {
+    background-color: #003366;
+    padding: 20px;
+    width: fit-content;
+}
+
+.company-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+    line-height: 21.78px;
+    color: #ffffff;
+    margin: 0 0 16px 0;
+}
+
+.company-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.company-section li {
+    margin-bottom: 16px;
+}
+
+.company-section a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.try-button-section {
+    background-color: #1a3a6e;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 259px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -0.56px;
+    line-height: 36px;
+    margin: 0;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.start-today-button {
+    background-color: #4f9cf9;
+    color: #ffffff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.start-today-button .icon {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #002366;
+    padding: 10px 20px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-item {
+    color: #ffffff;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.icon-placeholder, .arrow-placeholder {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    background-color: #003366;
+    padding: 10px;
+    align-items: center;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003366;
+    padding: 40px;
+    color: white;
+}
